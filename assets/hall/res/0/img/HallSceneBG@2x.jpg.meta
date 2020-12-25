@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "9e6ab0fd-e436-4e7a-95db-5cb8f94fefa1",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1184,
+  "height": 667,
+  "platformSettings": {},
+  "subMetas": {
+    "HallSceneBG@2x": {
+      "ver": "1.0.4",
+      "uuid": "adf574fe-42b9-4e5f-a687-05f7ae6aed6a",
+      "rawTextureUuid": "9e6ab0fd-e436-4e7a-95db-5cb8f94fefa1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1184,
+      "height": 667,
+      "rawWidth": 1184,
+      "rawHeight": 667,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

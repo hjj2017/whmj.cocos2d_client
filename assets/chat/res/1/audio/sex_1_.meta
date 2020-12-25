@@ -1,0 +1,12 @@
+{
+  "ver": "1.1.2",
+  "uuid": "ed3eb2e5-3028-41ac-b011-72acb01ce1db",
+  "isBundle": false,
+  "bundleName": "",
+  "priority": 1,
+  "compressionType": {},
+  "optimizeHotUpdate": {},
+  "inlineSpriteFrames": {},
+  "isRemoteBundle": {},
+  "subMetas": {}
+}

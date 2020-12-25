@@ -1,0 +1,146 @@
+
+MJ_weihai_Text.png
+size: 1339,327
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Img/BuFeng_0_
+  rotate: true
+  xy: 555, 116
+  size: 209, 166
+  orig: 212, 166
+  offset: 0, 0
+  index: -1
+Img/BuFeng_2_
+  rotate: false
+  xy: 1236, 151
+  size: 98, 85
+  orig: 98, 86
+  offset: 0, 1
+  index: -1
+Img/Chi_0_
+  rotate: true
+  xy: 723, 119
+  size: 206, 180
+  orig: 206, 180
+  offset: 0, 0
+  index: -1
+Img/Chi_1_
+  rotate: true
+  xy: 265, 2
+  size: 107, 109
+  orig: 107, 109
+  offset: 0, 0
+  index: -1
+Img/Chi_2_
+  rotate: false
+  xy: 744, 7
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+Img/Gang_0_
+  rotate: true
+  xy: 2, 98
+  size: 227, 206
+  orig: 227, 206
+  offset: 0, 0
+  index: -1
+Img/Gang_1_
+  rotate: false
+  xy: 616, 2
+  size: 126, 112
+  orig: 126, 112
+  offset: 0, 0
+  index: -1
+Img/Gang_2_
+  rotate: true
+  xy: 856, 7
+  size: 110, 108
+  orig: 110, 110
+  offset: 0, 2
+  index: -1
+Img/Hu_0_
+  rotate: false
+  xy: 1061, 148
+  size: 173, 177
+  orig: 173, 177
+  offset: 0, 0
+  index: -1
+Img/Hu_1_
+  rotate: true
+  xy: 376, 4
+  size: 105, 114
+  orig: 105, 114
+  offset: 0, 0
+  index: -1
+Img/Hu_2_
+  rotate: true
+  xy: 2, 2
+  size: 94, 110
+  orig: 94, 110
+  offset: 0, 0
+  index: -1
+Img/HuangZhuang_2_
+  rotate: false
+  xy: 1153, 45
+  size: 175, 101
+  orig: 184, 101
+  offset: 5, 0
+  index: -1
+Img/LiangFeng_0_
+  rotate: true
+  xy: 387, 113
+  size: 212, 166
+  orig: 212, 166
+  offset: 0, 0
+  index: -1
+Img/LiangFeng_2_
+  rotate: false
+  xy: 1236, 238
+  size: 101, 87
+  orig: 101, 88
+  offset: 0, 1
+  index: -1
+Img/Peng_0_
+  rotate: true
+  xy: 210, 111
+  size: 214, 175
+  orig: 214, 175
+  offset: 0, 0
+  index: -1
+Img/Peng_1_
+  rotate: false
+  xy: 492, 3
+  size: 122, 108
+  orig: 122, 108
+  offset: 0, 0
+  index: -1
+Img/Peng_2_
+  rotate: true
+  xy: 966, 23
+  size: 110, 101
+  orig: 110, 110
+  offset: 0, 6
+  index: -1
+Img/ZiMo_0_
+  rotate: true
+  xy: 905, 135
+  size: 190, 154
+  orig: 190, 154
+  offset: 0, 0
+  index: -1
+Img/ZiMo_1_
+  rotate: false
+  xy: 114, 7
+  size: 149, 89
+  orig: 149, 89
+  offset: 0, 0
+  index: -1
+Img/ZiMo_2_
+  rotate: true
+  xy: 1069, 36
+  size: 110, 82
+  orig: 110, 82
+  offset: 0, 0
+  index: -1

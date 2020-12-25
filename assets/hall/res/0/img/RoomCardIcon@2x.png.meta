@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.5",
+  "uuid": "988bac03-6793-4198-bf92-7a1986309a5d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 36,
+  "height": 40,
+  "platformSettings": {},
+  "subMetas": {
+    "RoomCardIcon@2x": {
+      "ver": "1.0.4",
+      "uuid": "e7c021b0-8c39-4253-945f-89ca7cdb37c1",
+      "rawTextureUuid": "988bac03-6793-4198-bf92-7a1986309a5d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 0,
+      "width": 31,
+      "height": 40,
+      "rawWidth": 36,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

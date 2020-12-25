@@ -1,0 +1,3 @@
+**/*.meta text eol=lf
+**/*.fire text eol=lf
+**/*.json text eol=lf

@@ -1,0 +1,12 @@
+{
+  "ver": "1.1.2",
+  "uuid": "0ad2733a-b2e3-476c-af25-06406a047eb3",
+  "isBundle": true,
+  "bundleName": "MJ_weihai_",
+  "priority": 1,
+  "compressionType": {},
+  "optimizeHotUpdate": {},
+  "inlineSpriteFrames": {},
+  "isRemoteBundle": {},
+  "subMetas": {}
+}

@@ -1,0 +1,111 @@
+
+MJ_weihai_MeiNv.png
+size: 920,1064
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Img/Body@0.1x
+  rotate: true
+  xy: 2, 765
+  size: 297, 516
+  orig: 297, 518
+  offset: 0, 2
+  index: -1
+Img/Cappa_0_@0.1x
+  rotate: true
+  xy: 520, 720
+  size: 201, 393
+  orig: 219, 404
+  offset: 0, 0
+  index: -1
+Img/Cappa_1_@0.1x
+  rotate: false
+  xy: 2, 604
+  size: 458, 159
+  orig: 478, 217
+  offset: 5, 19
+  index: -1
+Img/Cappa_2_@0.1x
+  rotate: true
+  xy: 520, 923
+  size: 139, 397
+  orig: 182, 400
+  offset: 6, 0
+  index: -1
+Img/Face_0_@0.1x
+  rotate: true
+  xy: 716, 150
+  size: 113, 130
+  orig: 117, 132
+  offset: 0, 0
+  index: -1
+Img/Face_1_@0.1x
+  rotate: false
+  xy: 95, 276
+  size: 117, 130
+  orig: 117, 132
+  offset: 0, 0
+  index: -1
+Img/Hair_0_@0.1x
+  rotate: false
+  xy: 462, 265
+  size: 456, 453
+  orig: 456, 455
+  offset: 0, 2
+  index: -1
+Img/Hair_1_@0.1x
+  rotate: true
+  xy: 2, 25
+  size: 238, 201
+  orig: 238, 201
+  offset: 0, 0
+  index: -1
+Img/LHand_0_@0.1x
+  rotate: true
+  xy: 214, 256
+  size: 150, 203
+  orig: 152, 206
+  offset: 0, 1
+  index: -1
+Img/LHand_1_@0.1x
+  rotate: true
+  xy: 2, 297
+  size: 305, 91
+  orig: 324, 93
+  offset: 18, 0
+  index: -1
+Img/LLeg_0_@0.1x
+  rotate: true
+  xy: 95, 408
+  size: 194, 361
+  orig: 194, 363
+  offset: 0, 0
+  index: -1
+Img/MJ_weihai_@0.1x
+  rotate: true
+  xy: 205, 5
+  size: 69, 86
+  orig: 69, 86
+  offset: 0, 0
+  index: -1
+Img/RHand_0_@0.1x
+  rotate: false
+  xy: 205, 76
+  size: 167, 178
+  orig: 167, 179
+  offset: 0, 0
+  index: -1
+Img/RHand_1_@0.1x
+  rotate: true
+  xy: 374, 2
+  size: 81, 298
+  orig: 92, 301
+  offset: 8, 1
+  index: -1
+Img/RLeg_0_@0.1x
+  rotate: true
+  xy: 374, 85
+  size: 169, 340
+  orig: 176, 340
+  offset: 0, 0
+  index: -1
