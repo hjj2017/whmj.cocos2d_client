@@ -244,7 +244,7 @@ function __openEditorDialog(SELF: FixGameXComp): void {
 
         // 再执行设置属性和刷新,
         // 否则 "亲友圈圈主支付" 选项会出现无法选中的 Bug
-        let oThatComp = oDialogNode.getComponent("CreateRoomDialogComp")
+        let oThatComp = oDialogNode.getComponent("croo.CreateRoomDialogComp")
             .putOnlyShowClubCreatorPayment(true)
             .putFixGameMode(true);
 
