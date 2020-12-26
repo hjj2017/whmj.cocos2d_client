@@ -234,7 +234,7 @@ function __openEditorDialog(SELF: FixGameXComp): void {
         return;
     }
 
-    PrefabXFactory.useSpecifyFactoryCreate("createroom", "CreateRoomDialogFactory", (oDialogNode) => {
+    PrefabXFactory.useSpecifyFactoryCreate("createroom", "croo.CreateRoomDialogFactory", (oDialogNode) => {
         if (null == oDialogNode) {
             return;
         }

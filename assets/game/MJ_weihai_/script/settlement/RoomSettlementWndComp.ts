@@ -5,7 +5,7 @@ import HeadImgLoader from "../../../../comm/script/HeadImgLoader";
 
 // @const
 const { ccclass } = cc._decorator;
-const HTML_CLOSE_IMG = "https://weihaishenghuo123.oss-cn-qingdao.aliyuncs.com/xyzab/h5/foo/Button_CloseShareWnd__2x.png";
+const HTML_CLOSE_IMG = "http://cdn0001.afrxvk.cn/whmj/h5/foo/Button_CloseShareWnd__2x.png";
 
 /**
  * 结算条目
