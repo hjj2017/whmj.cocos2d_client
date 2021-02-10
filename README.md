@@ -122,5 +122,24 @@ _一个模块就是一个 Bundle！_，这个前面已经提到过了。
 
 > 该模块属于**纯组件**! 
 
-createroom 和 hall、club 有什么吗？为什么要这么做呢？
+同样作为 Bundle，createroom 和 hall、club 有什么不同吗？为什么要这么做呢？
 
+事情是这样的：
+
+- 一开始 createroom（创建房间）是 hall 的一个 subview（子视图）；
+- 后来啊，有了 club（俱乐部）。在这里也能创建房间；
+- 按道理来说，club 应该可以调用属于 hall 的 createroom；
+- 可是，这里发生了一些奇怪且不好的事情；
+- 身为一个 Bundle 竟然伸手到人家裤裆里掏东西，这样好么？这样不好！
+- 这会导致 Cocos 引擎加载 Bundle 时出现不必要的混乱；
+- 说的更明白一点，就是 club 要加载 createroom，那么就必须先加载 hall。加载 hall 就得加载一大堆 hall 必须有但是 club 又用不上的资源（比如 hall 的背景图）； 
+- 为了避免上面说的问题，所以干脆把 createroom 从子视图里拿出来，直接升级为独立的模块，也就是 Bundle！
+- 这样就各自安好了……
+
+createroom 虽然是升级了，独立了，但是却严格到不能直接处理任何消息！
+
+所以它就是纯组件了……
+
+跟 createroom 类似的还有 chat、geolocation，也是纯纯的组件，不处理任何消息。
+
+与之有别的是 record，这个只是比 createroom 多了消息处理能力。
