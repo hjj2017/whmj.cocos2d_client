@@ -1,6 +1,6 @@
 # whmj.cocos2d_client
 
-威海地方玩法麻将，Cocos 客户端端代码，使用 Cocos Creator 2.4.3 编辑开发。
+威海地方玩法麻将，Cocos 客户端代码，使用 Cocos Creator 2.4.3 编辑开发。
 
 代码开发环境是 VSCode，开发语言采用 TypeScript。
 
@@ -132,13 +132,13 @@ _一个模块就是一个 Bundle！_，这个前面已经提到过了。
 - 可是，这里发生了一些奇怪且不好的事情；
 - 身为一个 Bundle 竟然伸手到人家裤裆里掏东西，这样好么？这样不好！
 - 这会导致 Cocos 引擎加载 Bundle 时出现不必要的混乱；
-- 说的更明白一点，就是 club 要加载 createroom，那么就必须先加载 hall。加载 hall 就得加载一大堆 hall 必须有但是 club 又用不上的资源（比如 hall 的背景图）； 
+    - 说的更明白一点，就是 club 要加载 createroom，那么就必须先加载 hall；
+    - 加载 hall 就得加载一大堆 hall 必须要用到的资源（比如 hall 的背景图）；
+    - 但是这些资源 club 又用不上； 
 - 为了避免上面说的问题，所以干脆把 createroom 从子视图里拿出来，直接升级为独立的模块，也就是 Bundle！
 - 这样就各自安好了……
 
-createroom 虽然是升级了，独立了，但是却严格到不能直接处理任何消息！
-
-所以它就是纯组件了……
+createroom 虽然是升级了，独立了，但是却严格到不能直接处理任何消息！所以它就是纯组件了……
 
 跟 createroom 类似的还有 chat、geolocation，也是纯纯的组件，不处理任何消息。
 
