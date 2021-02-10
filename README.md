@@ -45,6 +45,8 @@ http://cdn0001.afrxvk.cn/whmj/go.html?serverAddr=127.0.0.1:20480
 
 其余的目录，比如：hall、createroom、game/MJ_weihai_、club 这些都属于 Bundle。
 
+_也就是一个模块一个 Bundle！_
+
 所有的 Bundle 不会在应用启动时就加载，而是用到时才加载！
 
 这样可以加快应用的启动速度。
@@ -61,14 +63,15 @@ hall/                            // 大厅模块 Bundle；
   |     +-- 1/                   // 1 级目录，可以延迟加载的资源；
   |           +-- audio/         // 音频文件；
   |           +-- img/           // 所有的图片，该目录中会带有自动图集文件；
-  |           +-- prefab/        // 要用到的预制体；
+  |           +-- prefab/        // 场景中要用到的 prefab 预制体；
   |           +-- spine/         // Spine 骨骼动画资源目录；
   +-- script/                    // 代码目录，所有的 TypeScript 代码都在这个目录中；
   |     +-- msg/                 // 消息目录，Protobuf 生成的消息放在这里；
   |     +-- resulthandler/       // 服务器端返回的消息都以 XxxResult 命名，所以消息接收过程都在这里；
-  |     +-- subview              // 子视图目录, 组件所需要的代码都放在这里；
+  |     +-- subview/             // 子视图目录, 组件所需要的代码都放在这里；
   |     +-- hall.HallScene.ts    // 大厅场景代码；
   +-- HallScene.fire             // 游戏大厅场景文件，可以用 Cocos Creator 打开；
+  +-- README.md                  // 说明文件
 ```
 
 首先我们可以看到 res 目录中有 0 和 1 之分。
@@ -93,7 +96,7 @@ hall/                            // 大厅模块 Bundle；
 
 如果场景不复杂，但是却和其他 prefab 共用一张合图，那会极大的影响加载速度。
 
-这里有个问题：
+_这里有个问题：_
 
 > 如果我们遇到 Button.png 即在场景里用到了，又在 prefab 里用到了，那么这个图片到底是应该放到 0 里还是 1 里？
 
@@ -105,6 +108,19 @@ hall/                            // 大厅模块 Bundle；
 
 例如 Button.png 只放到 0 里，但是场景和 prefab 都用到了，那么 Cocos Creator 在创建合图时，
 
-很可能会创建一个零散的碎图……
+很可能会创建一个_零散的碎图_……这会增加 Http 请求次数！
 
-这会增加 Http 请求次数！
+# 关于 Bundle 还有要说的
+
+_一个模块就是一个 Bundle！_，这个前面已经提到过了。
+
+每个 Bundle 下都有一个 README.md 文件，打开 hall/README.md 或者 club/README.md，我们能看到：
+
+> 该模块属于**标准场景**!
+
+而打开 createroom/README.md，我们看到的是：
+
+> 该模块属于**纯组件**! 
+
+createroom 和 hall、club 有什么吗？为什么要这么做呢？
+
