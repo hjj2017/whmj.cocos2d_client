@@ -1,6 +1,6 @@
 # whmj.cocos2d_client
 
-威海地方玩法麻将，Cocos 客户端代码，使用 Cocos Creator 2.4.4 编辑开发。
+威海地方玩法麻将，Cocos 客户端代码，使用 Cocos Creator 2.4.3 编辑开发。
 
 代码开发环境是 VSCode，开发语言采用 TypeScript。
 
@@ -18,7 +18,9 @@ https://github.com/hjj2017/whmj.java_server
 
 ## 特别注意
 
-因为客户端使用了 Cocos Creator 最新版本支持的 Bundle 技术，所以想要正常打开该项目，请使用 Cocos Creator 2.4.3 或更高版本。
+因为客户端使用了 Cocos Creator 最新版本支持的 Bundle 技术，所以想要正常打开该项目，
+
+请使用 Cocos Creator **2.4.3 或更高版本**。
 
 另外，开发语言抛弃了 JavaScript，转而使用 TypeScript。
 
@@ -30,6 +32,8 @@ https://github.com/hjj2017/whmj.java_server
 
 - 可以严格规范编码；
 - IDE 可以提供良好的提示支持；
+- 方便代码重构；
+- 在编译期就可以排除编码错误，而不是到运行期才发现；
 
 # 项目结构
 
@@ -149,6 +153,27 @@ createroom 虽然是升级了，独立了，但是却严格到不能直接处理
 跟 createroom 类似的还有 chat、geolocation，也是纯纯的组件，不处理任何消息。
 
 与之有别的是 record，这个只是比 createroom 多了消息处理能力。
+
+# 编码规范
+
+- 变量要加类型前缀，虽然 TypeScript 有严格的类型，但是由于 JSer 留下的不好的习惯，所以要求每个变量都要加类型前缀，且类型是不能更换的！
+
+    - n 代表 number 类型，例如：nAge、nCount；
+    - o 代表 object 类型，例如：oUser、oLangMap；
+    - str 代表 string 类型，例如：strName、strDescription；
+    _ b 代表 boolean 类型，例如：bSuccezz；
+
+- 每个 .ts 文件中只有一个类文件，和 Java 语言保持一致；
+- 无需导出的函数，统统使用双下划线作为前缀，并尽量写在类外面；
+- 禁止使用函数的 .bind 特性，改为显示的传入 this（也就是 SELF） 指针；
+
+    - 使用函数的 .bind 特性，并在函数内部调用 this 时，会产生很严重的歧义，debug 时会非常困难；
+
+- 数组类型以 Array 作为结尾，例如：oNameArray；
+- 字典类型以 Map 作为结尾，例如：oNameDict；
+- 所有的函数必须定义返回值类型；
+- 所有的函数参数必须定义参数类型；
+- 所有的 if、for、while、do while 必须使用 { 和 } 包裹，即使只有一句；
 
 # 麻将谁是最核心代码？
 
