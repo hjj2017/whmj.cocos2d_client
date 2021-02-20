@@ -203,4 +203,4 @@ table 内核支持放风的展示，但是却不支持放风的选牌操作。�
 
 要解决这个问题的办法是，在内核之上做一个**虚设的视图（View）。**
 
-用户在这个视图上操作，把操作结果翻译成指令传递给内核。这个可以参考 MahjongLiangFengChoiceQuestionComp 代码。
+用户在这个视图上操作，把操作结果翻译成指令传递给内核。这个请参考：MahjongLiangFengChoiceQuestionComp
