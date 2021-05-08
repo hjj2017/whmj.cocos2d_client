@@ -2,7 +2,7 @@
 
 ----
 
-![screen_shoot_0](/hjj2017/whmj.cocos2d_client/blob/main/screenshoot/screen_shoot_0.png)
+![screen_shoot_0](./screenshoot/screen_shoot_0.png)
 
 威海地方玩法麻将，Cocos 客户端代码，使用 Cocos Creator 2.4.5 编辑开发。
 
