@@ -27,7 +27,7 @@ https://github.com/hjj2017/whmj.java_server
 
 因为客户端使用了 Cocos Creator 最新版本支持的 Bundle 技术，所以想要正常打开该项目，
 
-请使用 Cocos Creator **2.4.3 或更高版本**。
+请使用 Cocos Creator **2.4.5 或更高版本**。
 
 另外，开发语言抛弃了 JavaScript，转而使用 TypeScript。
 
