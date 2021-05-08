@@ -3,6 +3,10 @@
 ----
 
 ![screen_shoot_0](./screenshoot/screen_shoot_0.png)
+![screen_shoot_1](./screenshoot/screen_shoot_1.png)
+![screen_shoot_2](./screenshoot/screen_shoot_2.png)
+![screen_shoot_3](./screenshoot/screen_shoot_3.png)
+![screen_shoot_4](./screenshoot/screen_shoot_4.png)
 
 威海地方玩法麻将，Cocos 客户端代码，使用 Cocos Creator 2.4.5 编辑开发。
 
